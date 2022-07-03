@@ -1,0 +1,424 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+.header .logo{
+    display: flex;
+    justify-content: start;
+    width: 50%;
+    margin: auto;
+}
+
+.header .logo .fa{
+    color: #009432;
+    font-size: 1.8rem;
+    margin: 5px;
+}
+
+.header .logo p{
+    color: #000;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.header .icon-header{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+.header .icon-header input{
+    padding: 6px;
+    outline: none;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.header .icon-header .fa{
+    background: #009432;
+    color: #fff;
+    padding: 10px 25px;
+}
+.header .icon-header .fa:hover{
+    background: #000;
+}
+/* =========navigat========== */
+.contianer-fluid{
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.header,
+.contianer-fluid {
+    position: sticky;
+    background: #fff;
+    z-index: 9999;
+}
+.header {
+    top: 0;
+}
+.contianer-fluid {
+
+    top: 70px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+}
+.container .navbar{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container .navbar a{
+    font-size: 1rem;
+    color: #747d8c;
+    font-weight: bold;
+}
+.container .iconbar{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+}
+.container .iconbar .fa{
+    color: #000;
+    font-size: 1.6rem;
+    margin: 15px;
+    text-align: right;
+}
+/* ----------------------banner---------------------------- */
+.baner{
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+    justify-content: center;
+    padding: 20px;
+}
+.baner .image{
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+} 
+.baner .image img{
+    width: 100%;
+
+}
+.text-banner{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+.text-banner h4{
+    color: #747d8c;
+}
+.text-banner h1{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+button{
+    padding: 0 20px;
+    color: #fff;
+    background: #009432;
+    outline: none;
+    border: none;
+}
+button:hover{
+    background: #000;
+}
+/* -------------stat-section---------------- */
+.card-baner{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.card-body{
+    width: 48%;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    background: #dff7e6;
+}
+.text-card{
+    width: 48%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-card .content{
+    text-align: center;
+}
+.card-image{
+    width: 48%;
+    padding: 10px;
+}
+.card-image img{
+    width: 90%;
+    margin: auto;
+}
+/* --------------Second section----------------------- */
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin: 20px;
+}
+.title h1{
+    font-weight: bold;
+}
+.group-culum{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.culum{
+    width: 24%;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.culum h2{
+    font-weight: bold;
+}
+.culum p{
+    font-size: 1.6rem;
+}
+.culum img{
+    width: 90%;
+    margin: auto;
+}
+.culum button{
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+}
+.culum button:hover{
+    background: #000;
+}
+/* -------------Third section-------------- */
+.culum2{
+    width: 32%;
+    text-align: center;
+    padding:10px;
+    padding-bottom:20px;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  
+}
+
+.percentage{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.percentage p{
+    color: #009432;
+    padding: 5px 10px;
+    height: 5vh;
+    background: #e9f5ed;
+}
+.percentage .card-icon{
+    display: none;
+    position: absolute;
+    right: 0;
+    margin-top: 30px;
+    top: 70px;
+    transform: translateY(-50%);
+}
+label .fa {
+    position: absolute;
+    right: 0;
+    font-size: 1.2rem;
+    background: #c2fad5;
+    padding: 5px 10px;
+    border-radius: 20%;
+    color: #009432;
+}
+#icon1:checked~.card-icon,
+#icon2:checked~.card-icon, 
+#icon3:checked~.card-icon,
+#icon4:checked~.card-icon,
+#icon5:checked~.card-icon,
+#icon6:checked~.card-icon{
+    display: block;
+}
+.percentage .card-icon .fa{
+    padding: 10px;
+    border-radius: 50%;
+    background: #c8d6cc;
+    margin: 3px;
+    color: #000;
+}
+.percentage .card-icon .fa:hover{
+    color: #fff;
+    background: #009432;
+}
+.culum2 img{
+    width: 60%;
+    margin: 10px auto;
+}
+.culum2 p .fa{
+    color: #ffd32a;
+
+}
+.culum2 p{
+    font-size: 15px;
+}
+.culum2 p input{
+    font-size: 15px;
+}
+.culum2 input{
+    width: 20%;
+    outline: none;
+}
+/* --------------Deal Section----------- */
+.deal{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: 20px auto;
+    background: #e3fddf;
+}
+.text-deal{
+    width: 40%;
+    padding: 15px;
+}
+.image-deal{
+    width: 40%;
+    padding: 20px;
+}
+.image-deal img{
+    width: 80%;
+    margin: auto;
+}
+.time-culum{
+    display: flex;
+    justify-content: start;
+}
+.time{
+    margin: 10px;
+    width: 15%;
+}
+.time nav{
+    font-size: 2rem;
+    padding: 5px;
+    height: 8vh;
+    background: #fff;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
+.time nav, .time div{
+    width: 100%;
+}
+.time div{
+    text-align: center;
+    background: #494949;
+    color: #fff;
+    font-size: small;
+    padding: 5px;
+}
+/* ------------contact section-------------- */
+form{
+    width: 80%;
+    padding: 20px;
+    margin: 10px auto;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.group-form{
+    display: flex;
+    justify-content: space-between;
+}
+.group-form .form-control{
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+    outline: none;
+    border: none;
+    background: #edf0ee;
+
+}
+.group-form .form-control:hover,
+ .group-form textarea:hover{
+    box-shadow: rgba(151, 90, 90, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+.group-form textarea{
+    width: 99%;
+    margin: auto;
+    margin: 10px;
+    border: none;
+    background: #edf0ee;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+button{
+    padding: 10px 20px;
+    background: #009432;
+    color: #fff;
+}
+/* --------------sub-footer-------- */
+.subfoter{
+    
+    display: flex;
+    justify-content: space-between;
+    background: #d5f8e1;
+}
+.subfoter .img{
+    width: 30%;
+}
+.subfoter .img img{
+    width: 90%;
+    margin: auto;
+}
+.sub-footer-text{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 35%;
+}
+.search-buttom{
+    display: flex;
+    background: #e4e3e3;
+    padding: 10px;
+}
+.search-buttom .search-btn{
+    width: 60%;
+}
+.search-buttom .search-btn input{
+    padding: 5px;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+.search-buttom .btn-search{
+    width: 40%;
+}
+.search-buttom .btn-search button{
+    width: 100%;
+    padding: 5px;
+}
